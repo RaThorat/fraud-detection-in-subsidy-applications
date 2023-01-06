@@ -15,7 +15,7 @@ Companies/institutions may not be allowed to submit multiple applications to mul
 
 We can also verify that no private email addresses (such as Hotmail.com, live.nl, gmail.com, etc.) and no Foreign bank account numbers are used in the application.
 
-# Procedure
+# Script
 
 This script compares Chamber of Commerce (KVK) numbers in order to detect fraudulent subsidy applications in the Netherlands. It reads in two Excel files: 'faillissement_database.xlsx' and 'government_database.xlsx'.
 
