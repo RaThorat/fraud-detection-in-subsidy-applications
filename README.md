@@ -20,6 +20,7 @@ We can also verify that no private email addresses (such as Hotmail.com, live.nl
 This script compares Chamber of Commerce (KVK) numbers in order to detect fraudulent subsidy applications in the Netherlands. It reads in two Excel files: 'faillissement_database.xlsx' and 'government_database.xlsx'.
 
 The script then performs the following actions:
+
   1.It adds a column to the 'government_database.xlsx' dataframe called "KVK number in fai. database" and gives the value "yes" if the number appears in the 'faillissement_database.xlsx' file, otherwise it gives the value "None".
 
   2.It checks for multiple submissions using the same KVK number, bank number (IBAN), postal address, and email address. It also checks for foreign bank numbers and private email domains (such as Hotmail and Gmail). It also checks for the same telephone number in multiple applications.
