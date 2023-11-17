@@ -8,7 +8,7 @@ Give name to the dataframe dff columns: ‘ORG_NAME’, ‘ORG_KVK’ where comp
 
 Compare the Chamber of Commerce numbers of the companies listed in the database of the government, ‘government_database.xlsx’ against the Chamber of Commerce numbers of companies listed in bankruptcy register.
 
-The dataframe df should contain column names: ‘REFERENCE’, ‘ORG_NAME’, ‘ORG_STREET NAME’, ‘ORG_HOUSE NUMBER’, ‘ORG_ZIPCODE’, ‘ORG_CITY’, ‘ORG_IBAN’, ‘CP_FIRST NAME’, ‘CP_LAST NAME’, ‘CP_EMAIL ‘, ‘CP_PHONE’
+The dataframe df should contain column names: ‘REFERENCE’, ‘ORG_NAME’, 'ORG_KVK', ‘ORG_STREET NAME’, ‘ORG_HOUSE NUMBER’, ‘ORG_ZIPCODE’, ‘ORG_CITY’, ‘ORG_IBAN’, ‘CP_FIRST NAME’, ‘CP_LAST NAME’, ‘CP_EMAIL ‘, ‘CP_PHONE’
 
 ## Check multiple submissions
 Companies/institutions may not be allowed to submit multiple applications to multiple rounds or subsidies. For those reasons, we can perform a check for duplicate information such as Chamber of Commerce number; PO box / address; signatory; IBAN account number; e-mail address; phone number.
